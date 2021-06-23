@@ -21,7 +21,7 @@ _e.g. "Fixes #99"_
 - Breaking change (will cause existing functionality to not
   work as expected)
 
-Remember to add an entry to the relevant section of CHANGELOG.md as part of this pull request.
+_Remember to add an entry to the relevant section of CHANGELOG.md as part of this pull request._
 
 ## Note to other contributors
 
