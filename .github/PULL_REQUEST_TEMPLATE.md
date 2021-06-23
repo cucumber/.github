@@ -25,15 +25,15 @@ Remember to add an entry to the relevant section of CHANGELOG.md as part of this
 
 ## Note to other contributors
 
-If your change may impact future contributors, explain it here, and remember to update README.md and CONTRIBUTING.md accordingly.
+_If your change may impact future contributors, explain it here, and remember to update README.md and CONTRIBUTING.md accordingly._
 
 ## Update required of cucumber.io/docs
 
-If the [Cucumber documentation](https://cucumber.io/docs/) will require an update,
+_If the [Cucumber documentation](https://cucumber.io/docs/) will require an update,
 submit an issue or ideally a pull request to [cucumber/docs](https://github.com/cucumber/docs/) and
-reference it here.
+reference it here._
 
-e.g. "Ref: cucumber/docs/pull/#99"
+_e.g. "Ref: cucumber/docs/pull/#99"_
 
 # Checklist:
 
