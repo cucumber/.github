@@ -45,4 +45,4 @@ _e.g. "Ref: cucumber/docs/pull/#99"_
 - [ ] I have added tests to cover my changes.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
-- [ ] I have added an entry to the "Unreleased" section of the `CHANGELOG.md` linking to this pull request.
+- [ ] I have added an entry to the "Unreleased" section of the [**CHANGELOG**](../CHANGELOG.md) linking to this pull request.
