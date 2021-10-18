@@ -18,7 +18,7 @@ To make these steps easier, you can use the [`changelog`](https://github.com/cuc
 1. Modify the changelog:
    ```
    changelog release $next_release -o CHANGELOG.md
-   # You may have to manually fix the links at the bottom due to a bug in the changelog command
+   # Check the link under the Unreleased link. If it's wrong, fix it, and make sure the Unreleased link eads with HEAD
    ```
     * If you don't have `changelog` installed, do it manually:
         * Under `[Unreleased]` at the top, add a new `[${version}] - ${YYYY-mm-dd}` header
