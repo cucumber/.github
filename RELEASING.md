@@ -6,21 +6,21 @@ There are two parts to making a release. First, prepare the release, then make t
 ## Preparing a release
 
 Anyone with permission to push to the `main` branch can prepare a release.
-To make these steps easier, you can use the [`changelog`](https://github.com/cucumber/changelog) tool.
 
-1. Make sure the CI badges in `README.md` indicate passing
+1. Make sure the CI build is passing
 1. Decide what the next version number should be
     * Look at `CHANGELOG.md` to see what has changed since the last relesase
-    * Use [semver](https://semver.org/) to pick a version for the next release.
+    * Use [semver](https://semver.org/) to decide on a version for the next release.
       ```
       export next_release=MAJOR.MINOR.PATCH
       ```
 1. Modify the changelog:
+    * If you have the [`changelog`](https://github.com/cucumber/changelog) too installed:
    ```
    changelog release $next_release -o CHANGELOG.md
    # Check the link under the Unreleased link. If it's wrong, fix it, and make sure the Unreleased link eads with HEAD
    ```
-    * If you don't have `changelog` installed, do it manually:
+    * If you don't have the `changelog` tool installed:
         * Under `[Unreleased]` at the top, add a new `[${version}] - ${YYYY-mm-dd}` header
         * Add a new `[${version}]` link at the bottom
         * Update the `[Unreleased]` link at the bottom
