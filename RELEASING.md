@@ -16,9 +16,9 @@ Anyone with permission to push to the `main` branch can prepare a release.
       ```
 1. Modify the changelog:
     * If you have the [`changelog`](https://github.com/cucumber/changelog) too installed:
-   ```
-   changelog release $next_release -o CHANGELOG.md
-   ```
+      ```
+      changelog release $next_release -o CHANGELOG.md
+      ```
     * If you don't have the `changelog` tool installed:
         * Under `[Unreleased]` at the top, add a new `[${version}] - ${YYYY-mm-dd}` header
         * Add a new `[${version}]` link at the bottom
