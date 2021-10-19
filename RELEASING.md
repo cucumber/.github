@@ -56,7 +56,7 @@ The release candidate should be available for at least a month to give users tim
 Add entries with code examples to `UPGRADING.md` to help users migrate to the new major version. If the project doesn't have an `UPGRADING.md`
 file yet, use this template:
 
-````md
+````
 # Upgrading
 
 This document describes breaking changes and how to upgrade. For a complete list of changes including minor and patch releases, please refer to the [changelog](CHANGELOG.md).
