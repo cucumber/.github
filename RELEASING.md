@@ -16,7 +16,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
       export next_release=MAJOR.MINOR.PATCH[-rc.N]
       ```
 1. Modify the changelog:
-    * If you have the [`changelog`](https://github.com/cucumber/changelog) too installed:
+    * If you have the [`changelog`](https://github.com/cucumber/changelog) tool installed:
       ```
       changelog release $next_release -o CHANGELOG.md
       ```
