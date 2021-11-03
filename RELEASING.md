@@ -1,9 +1,33 @@
 # Releasing
 
 This document describes how to make a release using GitHub Actions.
-There are two parts to making a release. First, prepare the release, then make the release.
 
-## Preparing a release
+There are three parts to making a release: 
+
+* [Upgrade dependencies](#upgrade-dependencies)
+* [Prepare the release](#prepare-the-release)
+* [Make the release](#make-the-release)
+
+## Upgrade dependencies
+
+Although we lean on Renovate to do automatic depencency upgrades, it doesn't take care of everything. Before making a release, do a manual check for any dependency upgrades needed, and take the time to upgrade everything that you can.
+
+For JavaScript projects:
+
+      npx npm-check-updates --upgrade
+
+For Ruby projects:
+
+      ./scripts/update-gemspec
+
+For Java projects:
+
+      mvn versions:force-releases
+	   mvn versions:update-properties -DallowMajorUpdates=true -Dmaven.version.rules="file://`pwd`/.versions/rules.xml"
+
+Make a pull request with any dependency upgrades so that you get a full CI run. If it passes, merge the PR and you can continue with the release.
+
+## Prepare the release
 
 Anyone with permission to push to the `main` branch can prepare a release.
 
@@ -36,7 +60,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
    git push
    ```
 
-## Making a release
+## Make the release
 
 Only people with permission to push to `release/*` branches can make releases.
 
