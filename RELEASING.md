@@ -2,7 +2,7 @@
 
 This document describes how to make a release using GitHub Actions.
 
-There are three parts to making a release: 
+There are three parts to making a release:
 
 * [Upgrade dependencies](#upgrade-dependencies)
 * [Prepare the release](#prepare-the-release)
@@ -20,7 +20,8 @@ For JavaScript projects:
 
 For Ruby projects:
 
-    ./scripts/update-gemspec
+    curl https://raw.githubusercontent.com/cucumber/.github/main/scripts/update-gemspec | bash
+    # If the repo has its own scripts/update-gemspec - delete it!
 
 For Java projects:
 
