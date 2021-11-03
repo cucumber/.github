@@ -8,22 +8,24 @@ There are three parts to making a release:
 * [Prepare the release](#prepare-the-release)
 * [Make the release](#make-the-release)
 
+If you're making a major release, there are special considerations, and you should make sure to [read that section](#major-release).
+
 ## Upgrade dependencies
 
 Although we lean on Renovate to do automatic depencency upgrades, it doesn't take care of everything. Before making a release, do a manual check for any dependency upgrades needed, and take the time to upgrade everything that you can.
 
 For JavaScript projects:
 
-      npx npm-check-updates --upgrade
+    npx npm-check-updates --upgrade
 
 For Ruby projects:
 
-      ./scripts/update-gemspec
+    ./scripts/update-gemspec
 
 For Java projects:
 
-      mvn versions:force-releases
-	   mvn versions:update-properties -DallowMajorUpdates=true -Dmaven.version.rules="file://`pwd`/.versions/rules.xml"
+    mvn versions:force-releases
+    mvn versions:update-properties -DallowMajorUpdates=true -Dmaven.version.rules="file://`pwd`/.versions/rules.xml"
 
 Make a pull request with any dependency upgrades so that you get a full CI run. If it passes, merge the PR and you can continue with the release.
 
@@ -31,7 +33,14 @@ Make a pull request with any dependency upgrades so that you get a full CI run. 
 
 Anyone with permission to push to the `main` branch can prepare a release.
 
-1. Make sure the CI build is passing
+1. Add missing entries to `CHANGELOG.md`. Ideally the `CHANGELOG.md` should be up-to-date, but sometimes there will be accidental omissions when merging PRs.
+    * Use `git log --format=format:"* %s (%an)" --reverse <last-version-tag>..HEAD` to list all commits since the last release.
+1. Update contributors list (if applicable)
+    * List recent contributors:
+      ```
+      git log --format=format:"%an <%ae>" --reverse <last-version-tag>..HEAD  | grep -vEi "(renovate|dependabot|Snyk)" | sort| uniq -i
+      ```
+    * For JavaScript: Update the contributors list in `package.json` (keep alphabetical order)
 1. Decide what the next version number should be
     * Look at `CHANGELOG.md` to see what has changed since the last relesase
     * Use [semver](https://semver.org/) to decide on a version for the next release
@@ -53,7 +62,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
     * `go.mod`
     * `pom.xml`
     * `VERSION` (for Ruby libraries)
-3. Commit and push
+1. Commit and push
    ```
    git add .
    git commit -m "Release $next_release"
