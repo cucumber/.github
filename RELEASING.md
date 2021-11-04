@@ -80,7 +80,10 @@ Only people with permission to push to `release/*` branches can make releases.
    ```
 1. Wait until the `release-*` workflows in GitHub Actions have passed
 1. Rerun individual workflows if they fail
-1. Consider announcing the release on Slack/Twitter/Blog
+1. Announce the release
+   * in the `#newsletter` Slack channel
+   * on the `@cucumberbdd` Twitter account
+   * write a blog post
 
 ## Major release
 
