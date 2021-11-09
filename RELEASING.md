@@ -61,7 +61,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
 1. Update the version number in the relevant package decriptor(s), such as:
     * `package.json` (run `npm install` afterwards to update `package-lock.json`)
     * `go.mod`
-    * `pom.xml`
+    * `pom.xml` **Remove the -SNAPSHOT suffix**
     * `VERSION` (for Ruby libraries)
 1. Commit and push
    ```
@@ -80,6 +80,7 @@ Only people with permission to push to `release/*` branches can make releases.
    ```
 1. Wait until the `release-*` workflows in GitHub Actions have passed
 1. Rerun individual workflows if they fail
+1. (Java only) - in `pom.xml`, bump the **patch** version and append `-SNASHOT` (e.g. `1.2.4-SNAPSHOT`) and commit/push
 1. Announce the release
    * in the `#newsletter` Slack channel
    * on the `@cucumberbdd` Twitter account
