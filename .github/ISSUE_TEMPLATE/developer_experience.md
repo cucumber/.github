@@ -6,7 +6,12 @@ labels: ':bank: debt'
 assignees: ''
 
 ---
+<!-- 
+Thanks for suggesting an improvement to the code! 💖
 
-** What's the problem? **
+Use the questions below to help explain why you think this change is needed.
+-->
 
-** How do you propose to make it better? **
+** What's the problem you've observed? 🤔 **
+
+** Do you have a proposal for making it better? 🦄 **
