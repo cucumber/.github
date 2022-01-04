@@ -63,6 +63,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
     * `go.mod`
     * `pom.xml` **Remove the -SNAPSHOT suffix**
     * `VERSION` (for Ruby libraries)
+    * `*.csproj` - update `<VersionNumber>`
 1. Commit and push
    ```
    git add .
