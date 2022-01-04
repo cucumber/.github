@@ -28,6 +28,10 @@ For Java projects:
     mvn versions:force-releases
     mvn versions:update-properties -DallowMajorUpdates=true -Dmaven.version.rules="file://`pwd`/.versions/rules.xml"
 
+For Go projects:
+
+    go get -t -u ./...
+
 Make a pull request with any dependency upgrades so that you get a full CI run. If it passes, merge the PR and you can continue with the release.
 
 ## Prepare the release
