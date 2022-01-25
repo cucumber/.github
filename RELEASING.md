@@ -96,6 +96,8 @@ Only people with permission to push to `release/*` branches can make releases.
 If you are releasing `cucumber-{jvm,js,ruby}` and bumping the `MAJOR` version, make a `-rc.N` release candidate.
 The release candidate should be available for at least a month to give users time to validate that there are no unexpected breaking changes.
 
+If you are releasing a **library**, then you should **not** create a release candidate - just release the new major version.
+
 Add entries with code examples to `UPGRADING.md` to help users migrate to the new major version. If the project doesn't have an `UPGRADING.md`
 file yet, use this template:
 
