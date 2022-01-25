@@ -49,7 +49,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
 1. Decide what the next version number should be
     * Look at `CHANGELOG.md` to see what has changed since the last relesase
     * Use [semver](https://semver.org/) to decide on a version for the next release
-    * If you are bumping the `MAJOR` version, see the [Major release](#major-release) section
+    * If you are bumping the `MAJOR` version of `cucumber-{jvm,js,ruby}`, see the [Major release](#major-release) section
       ```
       export next_release=MAJOR.MINOR.PATCH[-rc.N]
       ```
