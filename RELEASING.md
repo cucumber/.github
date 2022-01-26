@@ -70,9 +70,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
     * `*.csproj` - update `<VersionNumber>`
 1. Commit and push
    ```
-   git add .
-   git commit -m "Release $next_release"
-   git push
+   git commit -am "Release $next_release" && git push
    ```
 
 ## Make the release
