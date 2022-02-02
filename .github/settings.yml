@@ -1,5 +1,5 @@
 repository:
   # A comma-separated list of topics to set on the repository
   # I am powerful
-  topics: cucumber, community, bdd
+  topics: cucumber, community, bdd, power
   
