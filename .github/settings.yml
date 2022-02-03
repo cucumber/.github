@@ -6,7 +6,7 @@ repository:
   homepage: https://cucumber.io/
 
   # A comma-separated list of topics to set on the repository
-  topics: cucumber, community, bdd
+  topics: cucumber, BDD, testing, TDD, test automation
 
   private: false
   has_issues: true
