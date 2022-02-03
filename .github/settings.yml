@@ -27,3 +27,11 @@ teams:
 
   - name: committers
     permission: push
+
+branches:
+  - name: main
+    required_pull_request_reviews: null
+    required_status_checks: null
+    enforce_admins: true
+    required_linear_history: true
+    
