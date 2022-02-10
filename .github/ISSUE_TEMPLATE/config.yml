@@ -3,4 +3,4 @@ blank_issues_enabled: true
 contact_links:
   - name: Cucumber Community Slack
     url: https://cucumber.io/community#slack
-    about: If you have a question about using Cucumber, head over to the #help channel 😊
+    about: "If you have a question about using Cucumber, head over to the #help channel 😊"
