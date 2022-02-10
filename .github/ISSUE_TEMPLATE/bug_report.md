@@ -26,7 +26,7 @@ Use the questions below to help explain what you think is wrong, and what we sho
 
 ## How could we reproduce it? 🔬
 
-<-- 
+<!-- 
 It order to fix the problem, we need to be able to reproduce it.
 
 A Minimal Reproducible Example can be really helpful for anyone
