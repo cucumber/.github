@@ -19,7 +19,7 @@ What motivated you to propose this change? Does it fix a bug? Add a new feature?
 If it fixes an open issue, you can link to the issue here, e.g. "Fixes #99"
 -->
 
-## What kind of change is this? 🐶🐈🐘
+# What kind of change is this? 🐶🐈🐘
 
 <!--- Delete any options that are not relevant -->
 
