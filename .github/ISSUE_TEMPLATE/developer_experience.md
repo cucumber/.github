@@ -12,10 +12,10 @@ Thanks for suggesting an improvement to the code! 💖
 Use the questions below to help explain why you think this change is needed.
 -->
 
-## What's the problem you've observed? 🤔
+### What's the problem you've observed? 🤔
 
 <!-- add your observations here... -->
 
-## Do you have a proposal for making it better? 🦄
+### Do you have a proposal for making it better? ✨
 
 <!-- add your suggestions here... -->

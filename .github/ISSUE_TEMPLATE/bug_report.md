@@ -12,19 +12,19 @@ Thanks for letting us know about a bug! 💖
 Use the questions below to help explain what you think is wrong, and what we should do to fix it.
 -->
 
-## What did you see? 👀
+### What did you see? 👓
 
 <!-- A clear and concise description of what you saw happen. -->
 
-## What did you expect to see? 😎
+### What did you expect to see? ✅ 
 
 <!-- Describe what you would like to have happened instead. -->
 
-## Which version are you using? 🎁
+### Which version are you using?
 
 <!-- What version of Cucumber/GoDog are you running? What version of your programming language platform? Anything else that might be relevant? -->
 
-## How could we reproduce it? 🔬
+### How could we reproduce it? 🔬
 
 <!-- 
 It order to fix the problem, we need to be able to reproduce it.
@@ -45,6 +45,6 @@ Steps to reproduce the behavior:
 
 <!-- you can add screenshots if that would be useful -->
 
-## Anything else? 🤔
+### Anything else? 🤔
 
 <!-- Add any other context about the problem here. -->
