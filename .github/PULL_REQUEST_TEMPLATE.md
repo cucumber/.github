@@ -8,11 +8,11 @@ Don't worry about getting everything perfect! We're here to help and will coach 
 The prompts below are for guidance to help you describe your change in a way that is most likely to make sense to other people when they are reviewing it. Still, it's just a guide, so feel free to delete anything that doesn't feel appropriate, and add anything additional that seems like it would probide useful context. 👏🏻
 -->
 
-### What's changed? 🤔
+### 🤔 What's changed?
 
 <!-- Describe your changes in detail -->
 
-### What's your motivation? ⚡️
+### ⚡️ What's your motivation? 
 
 <!-- 
 What motivated you to propose this change? Does it fix a bug? Add a new feature?
@@ -29,7 +29,7 @@ If it fixes an open issue, you can link to the issue here, e.g. "Fixes #99"
 - :boom: Breaking change (will cause existing user behaviour to not
   work it did before)
 
-### Checklist:
+### 📋 Checklist:
 
 <!--- 
 This is to help you remember all the little thing we often forget to do!

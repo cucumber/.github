@@ -7,15 +7,15 @@ assignees: ''
 
 ---
 
-### What's the problem you're trying to solve?
+### 🤔 What's the problem you're trying to solve?
 
 <!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
 
-### What's your proposed solution?
+### ✨ What's your proposed solution?
 
 <!-- A clear and concise description of what you want to happen. -->
 
-### Have you considered any alternatives or workarounds?
+### ⛏Have you considered any alternatives or workarounds?
 
 <!-- A clear and concise description of any alternative solutions or features you've considered. -->
 
