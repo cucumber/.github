@@ -41,7 +41,7 @@ This is to help you remember all the little things we often forget to do!
 Go over all the following points, and put an `x` in all the boxes that apply.
 -->
 
-- [x] I agree to respect and uphold the [Cucumber Community Code of Conduct](cucumber.io/conduct/)
+- [x] I agree to respect and uphold the [Cucumber Community Code of Conduct](https://cucumber.io/conduct/)
 - [ ] I've changed the behaviour of the code
   - [ ] I have added/updated tests to cover my changes.
 - [ ] My change requires a change to the documentation.
