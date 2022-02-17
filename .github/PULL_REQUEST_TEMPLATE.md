@@ -37,7 +37,7 @@ This is to help you remember all the little thing we often forget to do!
 Go over all the following points, and put an `x` in all the boxes that apply.
 -->
 
-- [ ] I have read the [**CONTRIBUTING**](../CONTRIBUTING.md) document.
+- [x] I agree to abide by the [Cucumber Community Code of Conduct](cucumber.io/conduct/)
 - [ ] My change needed additional tests
   - [ ] I have added tests to cover my changes.
 - [ ] My change requires a change to the documentation.
