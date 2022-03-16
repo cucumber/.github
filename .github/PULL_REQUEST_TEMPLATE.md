@@ -27,7 +27,7 @@ If it fixes an open issue, you can link to the issue here, e.g. "Fixes #99"
 
 <!--- Delete any options that are not relevant -->
 
-- :bank: Refactoring/debt (improvement to code design or tooling without changing behaviour)
+- :bank: Refactoring/debt/DX (improvement to code design, tooling, docuemntation etc. without changing behaviour)
 - :bug: Bug fix (non-breaking change which fixes a defect)
 - :zap: New feature (non-breaking change which adds new behaviour)
 - :boom: Breaking change (will cause existing user behaviour to not
