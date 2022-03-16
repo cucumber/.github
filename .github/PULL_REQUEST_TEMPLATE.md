@@ -33,7 +33,6 @@ If it fixes an open issue, you can link to the issue here, e.g. "Fixes #99"
 - :boom: Breaking change (will cause existing user behaviour to not
   work it did before)
 
-
 ### ♻️ Anything particular you want feedback on?
 
 <!-- 
@@ -46,7 +45,7 @@ particularly like reviewers to give you feedback on?
 <!--- 
 This is to help you remember all the little things we often forget to do!
 
-Go over all the following points, and put an `x` in all the boxes that apply.
+Feel free to delete any tasks that are not relevant, or add new ones.
 -->
 
 - [x] I agree to respect and uphold the [Cucumber Community Code of Conduct](https://cucumber.io/conduct/)
@@ -56,3 +55,9 @@ Go over all the following points, and put an `x` in all the boxes that apply.
   - [ ] I have updated the documentation accordingly.
 - [ ] Users should know about my change
   - [ ] I have added an entry to the "Unreleased" section of the [**CHANGELOG**](../CHANGELOG.md), linking to this pull request.
+
+<!-- 
+Edit this template here: 
+
+https://github.com/cucumber/.github/edit/main/.github/PULL_REQUEST_TEMPLATE.md
+-->
