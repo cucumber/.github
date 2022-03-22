@@ -63,7 +63,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
         * Add a new `[${version}]` link at the bottom
         * Update the `[Unreleased]` link at the bottom
 1. Update the version number in the relevant package decriptor(s), such as:
-    * `package.json` (run `npm install` afterwards to update `package-lock.json`)
+    * `package.json` - just run `npm version $next_release --no-git-tag-version`, will also update `package-lock.json`
     * `go.mod`
     * `pom.xml` **Remove the -SNAPSHOT suffix**
     * `VERSION` (for Ruby libraries)
