@@ -20,9 +20,9 @@ Use the questions below to help explain what you think is wrong, and what we sho
 
 <!-- Describe what you would like to have happened instead. -->
 
-### 📦 Which version are you using?
+### 📦 Which tool/library version are you using?
 
-<!-- What version of Cucumber/GoDog are you running? What version of your programming language platform? Anything else that might be relevant? -->
+<!-- What version of Cucumber/GoDog/etc. are you running? What version of your programming language platform? Anything else that might be relevant? -->
 
 ### 🔬 How could we reproduce it?
 
@@ -45,6 +45,6 @@ Steps to reproduce the behavior:
 
 <!-- you can add screenshots if that would be useful -->
 
-### 🤔 Anything else?
+### 📚 Additional context
 
-<!-- Add any other context about the problem here. -->
+<!-- Add any other context, references or screenshots about the problem here. -->
