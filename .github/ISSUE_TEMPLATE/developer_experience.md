@@ -19,3 +19,7 @@ Use the questions below to help explain why you think this change is needed.
 ### ✨ Do you have a proposal for making it better?
 
 <!-- add your suggestions here... -->
+
+### 📚 Any additional context?
+
+<!-- Add any other context or references here. -->

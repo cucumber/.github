@@ -6,6 +6,11 @@ labels: ':zap: enhancement'
 assignees: ''
 
 ---
+<!-- 
+Thanks for suggesting an improvement to Cucumber! 💖
+
+Use the questions below to help explain why you think this change is needed.
+-->
 
 ### 🤔 What's the problem you're trying to solve?
 
@@ -19,6 +24,6 @@ assignees: ''
 
 <!-- A clear and concise description of any alternative solutions or features you've considered. -->
 
-### 📚 Additional context
+### 📚 Any additional context?
 
 <!-- Add any other context, references or screenshots about the feature request here. -->
