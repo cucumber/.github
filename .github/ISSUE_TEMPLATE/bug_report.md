@@ -48,3 +48,7 @@ Steps to reproduce the behavior:
 ### 📚 Any additional context?
 
 <!-- Add any other context, references or screenshots about the problem here. -->
+
+----
+ 
+*This text was originally generated from a [template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates), then edited by hand. [You can modify the template here.](https://github.com/cucumber/.github/edit/main/.github/ISSUE_TEMPLATE/bug_report.md)*

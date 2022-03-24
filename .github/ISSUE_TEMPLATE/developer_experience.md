@@ -23,3 +23,7 @@ Use the questions below to help explain why you think this change is needed.
 ### 📚 Any additional context?
 
 <!-- Add any other context or references here. -->
+
+----
+
+*This text was originally generated from a [template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates), then edited by hand. [You can modify the template here.](https://github.com/cucumber/.github/edit/main/.github/ISSUE_TEMPLATE/developer_experience.md)*
