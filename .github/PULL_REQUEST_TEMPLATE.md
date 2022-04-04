@@ -56,12 +56,6 @@ Feel free to delete any tasks that are not relevant, or add new ones.
 - [ ] Users should know about my change
   - [ ] I have added an entry to the "Unreleased" section of the [**CHANGELOG**](../CHANGELOG.md), linking to this pull request.
 
-<!-- 
-Edit this template here: 
-
-https://github.com/cucumber/.github/edit/main/.github/PULL_REQUEST_TEMPLATE.md
--->
-
 ----
 
 *This text was originally generated from a [template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates), then edited by hand. [You can modify the template here.](https://github.com/cucumber/.github/edit/main/.github/PULL_REQUEST_TEMPLATE.md)*
