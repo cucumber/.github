@@ -1,6 +1,6 @@
 # Releasing
 
-This document describes how to make a release using GitHub Actions.
+This document describes how to make a release using GitHub Actions. Not all projects use this process. If you were linked to this file from a project it is safe to assume it does. 
 
 There are three parts to making a release:
 
@@ -10,9 +10,24 @@ There are three parts to making a release:
 
 If you're making a major release, there are special considerations, and you should make sure to [read that section](#major-release).
 
+## Required tooling
+
+Before making a release, make sure you have these tools installed:
+ * Git - version > 2.25 
+ * [polyglot-release](https://github.com/cucumber/polyglot-release)
+ * [changelog](https://github.com/cucumber/changelog/)
+ * Java
+   * Maven - version > 3.6
+   * JDK - version >= 11
+ * Javascript
+   * Node - version >= v14
+   * NPM - version >= 8
+ * Ruby
+   * None
+
 ## Upgrade dependencies
 
-Although we lean on Renovate to do automatic depencency upgrades, it doesn't take care of everything. Before making a release, do a manual check for any dependency upgrades needed, and take the time to upgrade everything that you can.
+Although we lean on Renovate to do automatic dependency upgrades, it doesn't take care of everything. Before making a release, do a manual check for any dependency upgrades needed, and take the time to upgrade everything that you can.
 
 For JavaScript projects:
 
@@ -46,50 +61,27 @@ Anyone with permission to push to the `main` branch can prepare a release.
       git log --format=format:"%an <%ae>" --reverse <last-version-tag>..HEAD  | grep -vEi "(renovate|dependabot|Snyk)" | sort| uniq -i
       ```
     * For JavaScript: Update the contributors list in `package.json` (keep alphabetical order)
-1. Decide what the next version number should be
-    * Look at `CHANGELOG.md` to see what has changed since the last relesase
-    * Use [semver](https://semver.org/) to decide on a version for the next release
-    * If you are bumping the `MAJOR` version of `cucumber-{jvm,js,ruby}`, see the [Major release](#major-release) section
-      ```
-      export next_release=MAJOR.MINOR.PATCH[-rc.N]
-      ```
-1. Modify the changelog:
-    * If you have the [`changelog`](https://github.com/cucumber/changelog) tool installed:
-      ```
-      changelog release $next_release --tag-format "v%s" -o CHANGELOG.md
-      ```
-    * If you don't have the `changelog` tool installed:
-        * Under `[Unreleased]` at the top, add a new `[${version}] - ${YYYY-mm-dd}` header
-        * Add a new `[${version}]` link at the bottom
-        * Update the `[Unreleased]` link at the bottom
-1. Update the version number in the relevant package decriptor(s), such as:
-    * `package.json` - just run `npm version $next_release --no-git-tag-version`, will also update `package-lock.json`
-    * `go.mod`
-    * `pom.xml` **Remove the -SNAPSHOT suffix**
-    * `VERSION` (for Ruby libraries)
-    * `*.csproj` - update `<VersionNumber>`
-1. Commit and push
-   ```
-   git commit -am "Release $next_release" && git push
-   ```
 
 ## Make the release
-
 Only people with permission to push to `release/*` branches can make releases.
 
-1. Push to a new `release/*` branch to trigger the `release-*` workflows
-   ```
-   git push origin main:release/v$next_release
-   ```
+1. Decide what the next version number should be
+   * Look at `CHANGELOG.md` to see what has changed since the last relesase
+   * Use [semver](https://semver.org/) to decide on a version for the next release
+   * If you are bumping the `MAJOR` version of `cucumber-{jvm,js,ruby}`, see the [Major release](#major-release) section
+1. From the root of the polyglot project you are trying to release run:
+
+```
+polyglot-release <new version>
+```
 1. Wait until the `release-*` workflows in GitHub Actions have passed
 1. Rerun individual workflows if they fail
-1. (Java only) - in `pom.xml`, bump the **patch** version and append `-SNASHOT` (e.g. `1.2.4-SNAPSHOT`) and commit/push
 1. Announce the release
    * in the `#newsletter` Slack channel
    * on the `@cucumberbdd` Twitter account
    * write a blog post
 
-## Major release
+### Major release
 
 If you are releasing `cucumber-{jvm,js,ruby}` and bumping the `MAJOR` version, make a `-rc.N` release candidate.
 The release candidate should be available for at least a month to give users time to validate that there are no unexpected breaking changes.
