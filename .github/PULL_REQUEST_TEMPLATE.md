@@ -30,8 +30,7 @@ If it fixes an open issue, you can link to the issue here, e.g. "Fixes #99"
 - :bank: Refactoring/debt/DX (improvement to code design, tooling, documentation etc. without changing behaviour)
 - :bug: Bug fix (non-breaking change which fixes a defect)
 - :zap: New feature (non-breaking change which adds new behaviour)
-- :boom: Breaking change (will cause existing user behaviour to not
-  work it did before)
+- :boom: Breaking change (incompatible changes to the API)
 
 ### ♻️ Anything particular you want feedback on?
 
