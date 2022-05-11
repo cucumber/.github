@@ -68,6 +68,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
     * `pom.xml` **Remove the -SNAPSHOT suffix**
     * `VERSION` (for Ruby libraries)
     * `*.csproj` - update `<VersionNumber>`
+    * `pyproject.toml`
 1. Commit and push
    ```
    git commit -am "Release $next_release" && git push
