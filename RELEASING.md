@@ -62,6 +62,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
       ```
     * For JavaScript: Update the contributors list in `package.json` (keep alphabetical order)
 
+
 ## Make the release
 Only people with permission to push to `release/*` branches can make releases.
 
