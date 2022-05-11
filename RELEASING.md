@@ -16,14 +16,6 @@ Before making a release, make sure you have these tools installed:
  * Git - version > 2.25 
  * [polyglot-release](https://github.com/cucumber/polyglot-release)
  * [changelog](https://github.com/cucumber/changelog/)
- * Java
-   * Maven - version > 3.6
-   * JDK - version >= 11
- * Javascript
-   * Node - version >= v14
-   * NPM - version >= 8
- * Ruby
-   * None
 
 ## Upgrade dependencies
 
