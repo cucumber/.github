@@ -1,6 +1,6 @@
 # Releasing
 
-This document describes how to make a release using GitHub Actions. Not all projects use this process. If you were linked to this file from a project it is safe to assume it does. 
+This document describes how to make a release using GitHub Actions. Not all projects use this process. If you were linked to this file from a project without additional instruction it is safe to assume it does. 
 
 There are three parts to making a release:
 
