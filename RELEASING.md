@@ -69,7 +69,11 @@ polyglot-release <new version>
 ```
 1. Wait until the `release-*` workflows in GitHub Actions have passed
 1. Rerun individual workflows if they fail
-1. Announce the release
+   
+   If there's something wrong with the release workflows themselves, you can make changes and git push --force to the release branch to re-run the workflow. Don't forget to merge any changes back to main afterwards.
+
+
+3. Announce the release
    * in the `#newsletter` Slack channel
    * on the `@cucumberbdd` Twitter account
    * write a blog post
