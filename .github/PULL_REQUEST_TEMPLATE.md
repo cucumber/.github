@@ -9,7 +9,7 @@ to getting your pull request ready to merge.
 The prompts below are for guidance to help you describe your change in a way that is most 
 likely to make sense to other people when they are reviewing it. Still, it's just a guide, 
 so feel free to delete anything that doesn't feel appropriate, and add anything additional 
-that seems like it would probide useful context. 👏🏻
+that seems like it would provide useful context. 👏🏻
 -->
 
 ### 🤔 What's changed?
