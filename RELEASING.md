@@ -14,9 +14,8 @@ If you're making a major release, there are special considerations, and you shou
 
 Before making a release, make sure you have these tools installed:
  * Git - version > 2.25 
- * [polyglot-release](https://github.com/cucumber/polyglot-release)
+ * [polyglot-release](https://github.com/cucumber/polyglot-release) and its dependencies
  * [changelog](https://github.com/cucumber/changelog/)
- * The `realpath` command. On MacOS you can install this with `brew install coreutils`
 
 ## Upgrade dependencies
 
