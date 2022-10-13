@@ -17,31 +17,6 @@ Before making a release, make sure you have these tools installed:
  * [polyglot-release](https://github.com/cucumber/polyglot-release) and its dependencies
  * [changelog](https://github.com/cucumber/changelog/)
 
-## Upgrade dependencies
-
-Although we lean on Renovate to do automatic dependency upgrades, it doesn't take care of everything. Before making a release, do a manual check for any dependency upgrades needed, and take the time to upgrade everything that you can.
-
-For JavaScript projects:
-
-    npx npm-check-updates --upgrade
-
-For Ruby projects:
-
-    curl https://raw.githubusercontent.com/cucumber/.github/main/scripts/update-gemspec | bash
-    # If the repo has its own scripts/update-gemspec - delete it!
-
-For Java projects:
-
-    mvn versions:force-releases
-    mvn versions:update-properties -DallowMajorUpdates=true -Dmaven.version.rules="file://`pwd`/.versions/rules.xml"
-
-For Go projects:
-
-    rm go.sum
-    go get -t -u ./...
-
-Make a pull request with any dependency upgrades so that you get a full CI run. If it passes, merge the PR and you can continue with the release.
-
 ## Prepare the release
 
 Anyone with permission to push to the `main` branch can prepare a release.
