@@ -38,7 +38,6 @@ For Java projects:
 
 For Go projects:
 
-    rm go.sum
     go get -t -u ./...
 
 Make a pull request with any dependency upgrades so that you get a full CI run. If it passes, merge the PR and you can continue with the release.
