@@ -31,7 +31,7 @@ Anyone with permission to push to the `main` branch can prepare a release.
 
 
 ## Make the release
-Only people with permission to push to `release/*` branches can make releases.
+Only people with permission to push to `release/*` branches can make releases. Typically these permissions are assigned to the [release team](https://github.com/orgs/cucumber/teams/release).
 
 1. Decide what the next version number should be
    * Look at `CHANGELOG.md` to see what has changed since the last relesase
