@@ -44,7 +44,7 @@ come and chat with us in the [community slack](https://cucumber.io/community#sla
 
 ### Get involved 🌈
 
-The Cucumber team is committed to [tackling the structural racism and sexism](cucumber.io/blog/open-source/tackling-structural-racism-(and-sexism)-in-open-so/) 
+The Cucumber team is committed to [tackling the structural racism and sexism](https://cucumber.io/blog/open-source/tackling-structural-racism-(and-sexism)-in-open-so/) 
 in open source, and providing a [fun and welcoming environment for new contributors](https://cucumber.io/docs/community/new-contributors/).
 
 [Contributions don't have to be code](https://vimeo.com/338591264). If you think you'd like to help, [book some time](https://calendly.com/mattwynne) with our project lead [@mattwynne](https://github.com/mattwynne) and
