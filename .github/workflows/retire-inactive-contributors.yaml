@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: cucumber/action-retire-inactive-contributor@main
+    - uses: cucumber/action-retire-inactive-contributor@abb03386eb48a76864a9399651799d4697fef53a
       with:
         github-orgname: cucumber
         maximum-absence-before-retirement: 1 year
