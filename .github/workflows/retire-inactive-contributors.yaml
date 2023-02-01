@@ -1,0 +1,17 @@
+name: Retire inactive contributors (Dry run)
+on:
+  workflow_dispatch:
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: cucumber/action-retire-inactive-contributor@main
+      with:
+        github-orgname: cucumber
+        maximum-absence-before-retirement: 1 year
+        alumni-team: alumni
+        dry-run: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.RETIRE_INACTIVE_CONTRIBUTORS_TOKEN }} 
