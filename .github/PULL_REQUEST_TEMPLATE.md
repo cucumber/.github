@@ -53,7 +53,7 @@ Feel free to delete any tasks that are not relevant, or add new ones.
 - [ ] My change requires a change to the documentation.
   - [ ] I have updated the documentation accordingly.
 - [ ] Users should know about my change
-  - [ ] I have added an entry to the "Unreleased" section of the [**CHANGELOG**](../CHANGELOG.md), linking to this pull request.
+  - [ ] I have added an entry to the "Unreleased" section of the [**CHANGELOG**](../blob/main/CHANGELOG.md), linking to this pull request.
 
 ----
 
