@@ -2,7 +2,7 @@
 [![OpenCollective](https://opencollective.com/cucumber/sponsors/badge.svg)](https://opencollective.com/cucumber)
 
 <p align="center">
-  <img src="https://github.com/cucumber/cucumber-ruby/raw/main/.github/img/cucumber-open-logo.png" alt="Cucumber Open - Supported by Smartbear" width="428" />
+  <img src="https://github.com/cucumber/cucumber-ruby/raw/main/docs/img/cucumber-open-logo.png" alt="Cucumber Open - Supported by Smartbear" width="428" />
 </p>
 
 ## Welcome to Cucumber 👋
