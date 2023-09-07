@@ -6,7 +6,7 @@ jobs:
   dry-run:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: cucumber/action-retire-inactive-contributor@v0.2.0
       with:
         github-orgname: cucumber
