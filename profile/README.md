@@ -9,7 +9,7 @@
 
 Cucumber is a tool for running automated acceptance tests, written in plain language. Because they're written in plain language, they can be read by anyone on your team. Because they can be read by anyone, they help improve communication, collaboration and trust on your team. 💖
 
-![Gherkin example](https://github.com/cucumber/cucumber-ruby/raw/main/.github/img/gherkin-example.png)
+![Gherkin example](https://github.com/cucumber/cucumber-ruby/raw/main/docs/img/gherkin-example.png)
 
 Cucumber was built to support [Behaviour-Driven Development](https://cucumber.io/docs/bdd/) (BDD).
 
