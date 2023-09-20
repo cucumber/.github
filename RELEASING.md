@@ -20,8 +20,9 @@ Before making a release, make sure you have these tools installed:
 
 Anyone with permission to push to the `main` branch can prepare a release.
 
-1. Add missing entries to `CHANGELOG.md`. Ideally the `CHANGELOG.md` should be up-to-date, but sometimes there will be accidental omissions when merging PRs.
+1. Add new information to `CHANGELOG.md`. Ideally the `CHANGELOG.md` should be up-to-date, but sometimes there will be accidental omissions when merging PRs.
     * Use `git log --format=format:"* %s (%an)" --reverse <last-version-tag>..HEAD` to list all commits since the last release.
+    * Add changelog details under the `## [Unreleased]` heading; `polyglot-release` will update this heading when it makes the release
 1. Update contributors list (if applicable)
     * List recent contributors:
       ```
