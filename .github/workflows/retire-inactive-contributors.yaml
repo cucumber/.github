@@ -12,6 +12,6 @@ jobs:
         github-orgname: cucumber
         maximum-absence-before-retirement: 1 year
         alumni-team: alumni
-        dry-run: true
+        read-only: read-only
       env:
         GITHUB_TOKEN: ${{ secrets.RETIRE_INACTIVE_CONTRIBUTORS_TOKEN }} 
