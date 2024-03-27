@@ -16,7 +16,7 @@ Please do not report security vulnerabilities through public issues, discussions
 
 ## Response
 
-Vulnerabilities will be disclosed initially to our enterprise partners Tidelift, and will subsequently be publicly disclosed once a patch is available.
+Vulnerabilities will be disclosed initially to our enterprise partners through Tidelift, and will subsequently be publicly disclosed once a patch is available.
 
 Unless otherwise specified in the `SECURITY.md` in the individual repository, security patches will be released against the most recent version only. This applies to both vulnerabilities in the repository itself, and transitive dependency issues that are resolved by upgrading or removing.
 
