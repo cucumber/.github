@@ -1,0 +1,34 @@
+name: Developer Experience
+description: >
+  Refactoring or technical debt payback that makes the codebase more pleasant to work on
+labels: [":bank: debt"]
+body:
+  - type: markdown
+    attributes:
+      value: |-
+        Thanks for suggesting an improvement to the code!
+
+        Use the questions below to help explain why you think this change is needed.
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🤔 What's the problem you've observed?
+      placeholder: Add your observations here...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: ✨ Do you have a proposal for making it better?
+      placeholder: Add your suggestions here...
+  - type: textarea
+    id: context
+    attributes:
+      label: 📚 Any additional context?
+      placeholder: >
+        Add any other context, references or screenshots here.
+  - type: markdown
+    attributes:
+      value: >
+        *This text was originally generated from a [template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates), then edited by hand. [You can modify the template here.](https://github.com/cucumber/.github/edit/main/.github/ISSUE_TEMPLATE/developer_experience.yaml)*
+
