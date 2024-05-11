@@ -1,6 +1,6 @@
 # See https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
 blank_issues_enabled: true
 contact_links:
-  - name: Cucumber Community Slack
-    url: https://cucumber.io/community#slack
-    about: "If you have a question about using Cucumber or GoDog, head over to the #help channel 😊"
+  - name: Cucumber Discussion Board
+    url: https://github.com/orgs/cucumber/discussions
+    about: "If you have a question about using Cucumber or GoDog, head over to the Q&A channel 😊"
