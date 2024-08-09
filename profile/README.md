@@ -40,7 +40,7 @@ Other popular Cucumber implementations, maintained by other organisations, are:
 * [Behat](https://docs.behat.org/en/latest/) for PHP
 
 If you're not sure where to raise your issue, you can use our [common](https://github.com/cucumber/common) repository, or 
-come and chat with us in the [community slack](https://cucumber.io/community#slack).
+come and chat with us in the [Community Discord](https://cucumber.io/community#discord).
 
 ### Get involved 🌈
 
