@@ -21,7 +21,7 @@ Everyone interacting in these codebases and issue trackers is expected to follow
 
 ### Get in touch
 
-If you have questions about using Cucumber, or ideas for how we could improve it, head over to our [GitHub Discussions](https://github.com/orgs/cucumber/discussions) forum. If you want chat with the maintainers, the best place for that is to join the [Community Slack](https://cucumber.io/community#slack)
+If you have questions about using Cucumber, or ideas for how we could improve it, head over to our [GitHub Discussions](https://github.com/orgs/cucumber/discussions) forum. If you want chat with the maintainers, the best place for that is to join the [Community Discord](https://cucumber.io/community#discord).
 
 If you've found a bug in Cucumber, or have an idea for a new feature, you can raise an issue on GitHub.
 
