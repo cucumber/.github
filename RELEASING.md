@@ -38,17 +38,15 @@ Only people with permission to push to `release/*` branches can make releases. T
    * Look at `CHANGELOG.md` to see what has changed since the last relesase
    * Use [semver](https://semver.org/) to decide on a version for the next release
    * If you are bumping the `MAJOR` version of `cucumber-{jvm,js,ruby}`, see the [Major release](#major-release) section
-1. From the root of the polyglot project you are trying to release run:
-
-```
-polyglot-release <new version>
-```
-1. Wait until the `release-*` workflows in GitHub Actions have passed
-1. Rerun individual workflows if they fail
-1. Announce the release
-   * in the `#newsletter` Slack channel
-   * on the `@cucumberbdd` Twitter account
-   * write a blog post
+2. From the root of the polyglot project you are trying to release run:
+   
+   ```
+   polyglot-release <new version>
+   ```
+3. Wait until the `release-*` workflows in GitHub Actions have passed
+4. Rerun individual workflows if they fail
+5. Announce the release
+   * in the `#commiters` Discord channel
 
 ### Major release
 
