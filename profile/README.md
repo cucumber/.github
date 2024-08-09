@@ -21,7 +21,7 @@ Everyone interacting in these codebases and issue trackers is expected to follow
 
 ### Get in touch
 
-If you have questions about using Cucumber, or ideas for how we could improve it, head over to our [GitHub Discussions](https://github.com/orgs/cucumber/discussions) forum. If you want chat with the maintainers, the best place for that is to join the [Community Slack](https://cucumber.io/community#slack)
+If you have questions about using Cucumber, or ideas for how we could improve it, head over to our [GitHub Discussions](https://github.com/orgs/cucumber/discussions) forum. If you want chat with the maintainers, the best place for that is to join the [Community Discord](https://cucumber.io/community#discord).
 
 If you've found a bug in Cucumber, or have an idea for a new feature, you can raise an issue on GitHub.
 
@@ -40,7 +40,7 @@ Other popular Cucumber implementations, maintained by other organisations, are:
 * [Behat](https://docs.behat.org/en/latest/) for PHP
 
 If you're not sure where to raise your issue, you can use our [common](https://github.com/cucumber/common) repository, or 
-come and chat with us in the [community slack](https://cucumber.io/community#slack).
+come and chat with us in the [Community Discord](https://cucumber.io/community#discord).
 
 ### Get involved 🌈
 
