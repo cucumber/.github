@@ -48,7 +48,7 @@ This is to help you remember all the little things we often forget to do!
 Feel free to delete any tasks that are not relevant, or add new ones.
 -->
 
-- [x] I agree to respect and uphold the [Cucumber Community Code of Conduct](https://cucumber.io/conduct/)
+- [x] I agree to respect and uphold the [Cucumber Community Code of Conduct](https://github.com/cucumber/.github/tree/main?tab=coc-ov-file)
 - [ ] I've changed the behaviour of the code
   - [ ] I have added/updated tests to cover my changes.
 - [ ] My change requires a change to the documentation.
