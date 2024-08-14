@@ -61,7 +61,7 @@ The current moderators of the Cucumber community are:
 - David Goss
 - Volodymyr Bober
 
-You can contact us by email at [team@cucumber.community](mailto:team@cucumber.community).
+You can contact us by email at [mods@cucumber.community](mailto:mods@cucumber.community).
 
 ## References / inspiration
 
