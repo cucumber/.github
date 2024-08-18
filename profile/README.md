@@ -2,14 +2,14 @@
 [![OpenCollective](https://opencollective.com/cucumber/sponsors/badge.svg)](https://opencollective.com/cucumber)
 
 <p align="center">
-  <img src="https://github.com/cucumber/cucumber-ruby/raw/main/docs/img/cucumber-open-logo.png" alt="Cucumber Open - Supported by Smartbear" width="428" />
+  <img src="docs/img/cucumber-open-logo.png" alt="Cucumber Open - Supported by SmartBear" width="428" />
 </p>
 
 ## Welcome to Cucumber 👋
 
 Cucumber is a tool for running automated acceptance tests, written in plain language. Because they're written in plain language, they can be read by anyone on your team. Because they can be read by anyone, they help improve communication, collaboration and trust on your team. 💖
 
-![Gherkin example](https://github.com/cucumber/cucumber-ruby/raw/main/docs/img/gherkin-example.png)
+<img src="docs/img/gherkin-example.png" alt="Cucumber Gherkin Example" width="728" />
 
 Cucumber was built to support [Behaviour-Driven Development](https://cucumber.io/docs/bdd/) (BDD).
 
