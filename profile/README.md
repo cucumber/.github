@@ -2,7 +2,7 @@
 [![OpenCollective](https://opencollective.com/cucumber/sponsors/badge.svg)](https://opencollective.com/cucumber)
 
 <p align="center">
-  <img src="../docs/img/cucumber-black-512.png" alt="Cucumber"
+  <img src="../docs/img/cucumber-black-128.png" alt="Cucumber"
 </p>
 
 ## Welcome to Cucumber 👋
