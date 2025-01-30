@@ -52,7 +52,7 @@ have a chat about what you're interested in. We can find something useful for yo
 
 ### Sponsors
 
-Thanks to all these companies who [sponsor this project](https://opencollective.com/cucumber). [[Become a sponsor](https://opencollective.com/cucumber#sponsor)]
+Thanks to all these companies who [sponsor this project](https://opencollective.com/cucumber).
 
 <a href="https://opencollective.com/cucumber/sponsor/0/website" target="_blank"><img src="https://opencollective.com/cucumber/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/cucumber/sponsor/1/website" target="_blank"><img src="https://opencollective.com/cucumber/sponsor/1/avatar.svg"></a>
@@ -85,9 +85,11 @@ Thanks to all these companies who [sponsor this project](https://opencollective.
 <a href="https://opencollective.com/cucumber/sponsor/28/website" target="_blank"><img src="https://opencollective.com/cucumber/sponsor/28/avatar.svg"></a>
 <a href="https://opencollective.com/cucumber/sponsor/29/website" target="_blank"><img src="https://opencollective.com/cucumber/sponsor/29/avatar.svg"></a>
 
+<sup>*_This is a donation. No goods or services are expected in return. Any requests for refunds for those purposes will be rejected._</sup>
+
 ### Backers
 
-Thanks to all these individuals who have [backed this project](https://opencollective.com/cucumber). [[Become a backer](https://opencollective.com/cucumber#backer)]
+Thanks to all these individuals who have [backed this project](https://opencollective.com/cucumber).
 
 <a href="https://opencollective.com/cucumber/backer/0/website" target="_blank"><img src="https://opencollective.com/cucumber/backer/0/avatar.svg"></a>
 <a href="https://opencollective.com/cucumber/backer/1/website" target="_blank"><img src="https://opencollective.com/cucumber/backer/1/avatar.svg"></a>
@@ -119,3 +121,5 @@ Thanks to all these individuals who have [backed this project](https://opencolle
 <a href="https://opencollective.com/cucumber/backer/27/website" target="_blank"><img src="https://opencollective.com/cucumber/backer/27/avatar.svg"></a>
 <a href="https://opencollective.com/cucumber/backer/28/website" target="_blank"><img src="https://opencollective.com/cucumber/backer/28/avatar.svg"></a>
 <a href="https://opencollective.com/cucumber/backer/29/website" target="_blank"><img src="https://opencollective.com/cucumber/backer/29/avatar.svg"></a>
+
+<sup>*_This is a donation. No goods or services are expected in return. Any requests for refunds for those purposes will be rejected._</sup>
