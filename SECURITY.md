@@ -6,7 +6,7 @@ The Cucumber team takes security very seriously and appreciates (and will endeav
 
 If you believe you have found a security vulnerability in any Cucumber-owned repository, please report it to us through coordinated disclosure.
 
-Please do not report security vulnerabilities through public issues, discussions, or pull requests. Instead, please send an email to <team@cucumber.community>. Try to include as much detail as you can, including:
+Please do not report security vulnerabilities through public issues, discussions, or pull requests. Instead, please send an email to <security@cucumber.io>. Try to include as much detail as you can, including:
 
 - The broad category of issue
 - An unambiguous link to the vulnerable code - i.e. the file(s), but also git commit/tag/branch
