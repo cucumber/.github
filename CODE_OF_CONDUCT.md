@@ -60,7 +60,7 @@ The current moderators of the Cucumber community are:
 - Matt Wynne
 - David Goss
 
-You can contact us by email at [mods@cucumber.io](mailto:mods@cucumber.io).
+You can contact us by email at <mods@cucumber.io>.
 
 ## References / inspiration
 
