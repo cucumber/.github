@@ -6,8 +6,8 @@ jobs:
   dry-run:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
-    - uses: cucumber/action-retire-inactive-contributor@v0.4.0
+    - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
+    - uses: cucumber/action-retire-inactive-contributor@97a57375ff11ab3236880dec35da5d752d214487 # v0.4.0
       with:
         github-orgname: cucumber
         maximum-absence-before-retirement: 1 year
