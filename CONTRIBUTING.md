@@ -30,8 +30,7 @@ Please also read this guide all the way through.
 ## AI Usage
 
 Cucumber is developed and maintained by humans. We read every discusison, issue
-and pull reqeust. As such we appreciate it if you take the time to communicate
-with us.
+and pull request. As such we appreciate it, if you would take time to communicate with us.
 
 When you use AI, we require that you do the following:
 
@@ -48,7 +47,7 @@ When you use AI, we require that you do the following:
 ## Project organization
 
 _Note: This is the catch-all contributing guide and not all repositories are
-organized the same. So this guide can't help you with the specifics. The
+organized the same. So this guide won't help you with anything specific. The
 repository might have a dedicated `CONTRIBUTING.md`. If so, you'll want to
 consult that instead of the next two sections._
 
@@ -73,13 +72,13 @@ different languages. It typically looks like this:
 └── testdata        # test data for acceptance tests
 ```
 
-Generally speaking, each implementation can be build independently of the
+Generally speaking, each implementation can be built independently of the
 others using the tools typical for that language. If you don't know what those
 are `.github/workflows/test-<language>.yaml` would be a good place to start.
 
 ### Monoglot
 
 If the repository you're looking at doesn't look like a polyglot repo it 
-probably is for a single language. In this case it can probably be build using
-the tools typical for that language. If you don't know what those  are then
+probably is for a single language. In this case it can probably be built using
+the tools typical for that language. If you don't know what those are then
 again `.github/workflows/test-<language>.yaml` would be a good place to start.
