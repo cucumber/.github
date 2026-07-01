@@ -35,8 +35,9 @@ and pull request. As such we appreciate it, if you would take time to communicat
 When you use AI, we require that you do the following:
 
 * **All AI usage in any form must be disclosed**
-  You must state the tool you used along with the extent that the work was
-  AI-assisted.
+  If you have used AI, you must state to what extent the work was AI-assisted.
+  For example, did you an LLM to translate your pull request description? Or did
+  the LLM generate the code for you which you then edited? Ect, ect.
 * **You must fully understand all code.** 
   You should be able to explain what your changes do and how they interact with
   the greater system without the aid of AI tools.
