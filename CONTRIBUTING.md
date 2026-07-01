@@ -40,10 +40,10 @@ When you use AI, we require that you do the following:
   the LLM generate the code for you which you then edited? Ect, ect.
 * **You must fully understand all code.** 
   You should be able to explain what your changes do and how they interact with
-  the greater system without the aid of AI tools.
+  the greater ecosystem without the aid of AI tools.
 * **You must be in the loop**.
   Any content generated with AI must have been reviewed and edited by you
-  (a human) before submission.
+  (a human), before you submit it to us.
 
 ## Project organization
 
@@ -56,7 +56,7 @@ In general there are two types. Polyglot and monoglot.
 
 ### Polyglot
 
-Polyglot repositories contains identical implementations of a component in
+Polyglot repositories contains near identical implementations of a component in
 different languages. It typically looks like this:
 
 ```
@@ -81,5 +81,5 @@ are `.github/workflows/test-<language>.yaml` would be a good place to start.
 
 If the repository you're looking at doesn't look like a polyglot repo it 
 probably is for a single language. In this case it can probably be built using
-the tools typical for that language. If you don't know what those are then
+the tools typical for that language. If you don't know what those are, then
 again `.github/workflows/test-<language>.yaml` would be a good place to start.
