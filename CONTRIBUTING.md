@@ -29,7 +29,7 @@ Please also read this guide all the way through.
 
 ## AI Usage
 
-Cucumber is developed and maintained by humans. We read every discusison, issue
+Cucumber is developed and maintained by humans. We read every discussion, issue
 and pull request. As such we appreciate it, if you would take time to communicate with us.
 
 When you use AI, we require that you do the following:
