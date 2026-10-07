@@ -29,15 +29,18 @@ Please also read this guide all the way through.
 
 ## AI Usage
 
-Cucumber is developed and maintained by humans. We read every discussion, issue
-and pull request. As such we appreciate it, if you would take time to communicate with us.
+**You may not use AI in issues, pull request descriptions or discussions**
+
+Cucumber is developed and maintained by people. We read every discussion, issue
+and pull request. As such we appreciate it, if you would take time to
+communicate with us as a person.
 
 When you use AI, we require that you do the following:
 
 * **All AI usage in any form must be disclosed**
   If you have used AI, you must state to what extent the work was AI-assisted.
-  For example, did you an LLM to translate your pull request description? Or did
-  the LLM generate the code for you which you then edited? Ect, ect.
+  For example, did the LLM generate the code for you which you then edited? Ect,
+  ect.
 * **You must fully understand all code.** 
   You should be able to explain what your changes do and how they interact with
   the greater ecosystem without the aid of AI tools.
